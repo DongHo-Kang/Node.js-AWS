@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("./controller/CVisitor");
+const controller = require("../controller/CVisitor");
 
 //방명록 전체 보이기
 //localhost:8000/visitor
